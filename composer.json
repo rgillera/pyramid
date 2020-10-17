@@ -14,14 +14,4 @@
         }
     },
     "require": {}
-    // "extra": {
-    //     "laravel": {
-    //         "providers": [
-    //             "Rgillera\\Pyramid\\Providers\\PyramidServiceProvider"
-    //         ],
-    //         "aliases": {
-    //             "Pyramid": "Rgillera\\Pyramid\\Facade"
-    //         }
-    //     }
-    // }
 }
