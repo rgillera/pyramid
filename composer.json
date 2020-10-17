@@ -13,15 +13,15 @@
             "Rgillera\\Pyramid\\": "packages/rgillera/pyramid/src"
         }
     },
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Rgillera\\Pyramid\\Providers\\PyramidServiceProvider"
-            ],
-            "aliases": {
-                "Pyramid": "Rgillera\\Pyramid\\Facade"
-            }
-        }
-    }
+    "require": {}
+    // "extra": {
+    //     "laravel": {
+    //         "providers": [
+    //             "Rgillera\\Pyramid\\Providers\\PyramidServiceProvider"
+    //         ],
+    //         "aliases": {
+    //             "Pyramid": "Rgillera\\Pyramid\\Facade"
+    //         }
+    //     }
+    // }
 }
