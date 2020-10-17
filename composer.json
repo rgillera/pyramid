@@ -1,0 +1,11 @@
+{
+    "name": "rgillera/pyramid",
+    "description": "Base Project",
+    "authors": [
+        {
+            "name": "Rodel Gillera",
+            "email": "rodelgillera@gmail.com"
+        }
+    ],
+    "require": {}
+}
