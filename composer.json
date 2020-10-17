@@ -7,5 +7,21 @@
             "email": "rodelgillera@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Rgillera\\Pyramid\\": "packages/rgillera/pyramid/src"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rgillera\\Pyramid\\Providers\\PyramidServiceProvider"
+            ],
+            "aliases": {
+                "Pyramid": "Rgillera\\Pyramid\\Facade"
+            }
+        }
+    }
 }
