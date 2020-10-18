@@ -15,4 +15,9 @@ class AuthController extends ApiController
     {
         return 'Registration page';
     }
+
+    public function reset()
+    {
+        return 'Reset Page';
+    }
 }
