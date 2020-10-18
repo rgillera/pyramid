@@ -10,4 +10,9 @@ class AuthController extends ApiController
     {
         return 'Login Page';
     }
+
+    public function register()
+    {
+        return 'Registration page';
+    }
 }

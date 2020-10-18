@@ -17,5 +17,6 @@ use Vqpoint\Pyramid\Controllers\AuthController;
 
 Route::prefix('auth')->group(function () {
     Route::get('login', [AuthController::class, 'login']);
+    Route::get('register', [AuthController::class, 'register']);
     Route::post('logout', 'AuthController@logout')->middleware('auth:api')->name('logout');
 });
