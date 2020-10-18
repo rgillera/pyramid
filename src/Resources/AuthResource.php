@@ -1,6 +1,6 @@
 <?php
 
-namespace Rgillera\Pyramid\Resources;
+namespace Vqpoint\Pyramid\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

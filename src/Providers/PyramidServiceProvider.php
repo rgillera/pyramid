@@ -1,6 +1,6 @@
 <?php
 
-namespace Rgillera\Pyramid\Providers;
+namespace Vqpoint\Pyramid\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,6 +23,6 @@ class PyramidServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        include __DIR__.'/../routes.php';
     }
 }

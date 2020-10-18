@@ -1,6 +1,6 @@
 <?php
 
-namespace Rgillera\Pyramid\Requests;
+namespace Vqpoint\Pyramid\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

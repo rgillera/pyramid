@@ -1,13 +1,13 @@
 <?php
 
-namespace Rgillera\Pyramid\Controllers;
+namespace Vqpoint\Pyramid\Controllers;
 
-use Rgillera\Pyramid\Controllers\ApiController;
+use Vqpoint\Pyramid\Controllers\ApiController;
 
 class AuthController extends ApiController
 {
-    public function authenticate()
+    public function login()
     {
-        // TODO
+        return 'Login Page';
     }
 }
