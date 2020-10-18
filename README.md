@@ -1,13 +1,16 @@
-## Installation
+# Installation
 
-Add this to composer autoload
+## Add this to composer autoload
+```
+"Vqpoint\\Pyramid\\": "packages/vqpoint/pyramid/src",
+```
 
-## `"Vqpoint\\Pyramid\\": "packages/vqpoint/pyramid/src",`
+## Add this to config/app.php providers array
+```
+Vqpoint\Pyramid\Providers\PyramidServiceProvider::class,
+```
 
-Add this to config/app.php providers array
-
-## `Vqpoint\Pyramid\Providers\PyramidServiceProvider::class,`
-
-Run composer dump-autoload on the root directory.
-
-## `composer dump-autoload`
+## Run composer dump-autoload in the root directory.
+```
+composer dump-autoload
+```
