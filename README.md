@@ -1,5 +1,10 @@
 # Installation
 
+## Install using composer
+```
+mkdir packages
+```
+
 ## Add this to composer autoload
 ```
 "Vqpoint\\Pyramid\\": "packages/vqpoint/pyramid/src",
