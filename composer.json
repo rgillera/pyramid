@@ -12,6 +12,13 @@
             "Vqpoint\\Pyramid\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vqpoint\\Pyramid\\Providers\\PyramidServiceProvider"
+            ]
+        }
+    },
     "require": {
         "php": "^7.3",
         "laravel/framework": "^8.0"
