@@ -2,7 +2,7 @@
 
 ## Install using composer
 ```
-mkdir packages
+composer require vqpoint/pyramid
 ```
 
 ## Add this to composer autoload
