@@ -16,7 +16,10 @@
         "laravel": {
             "providers": [
                 "Vqpoint\\Pyramid\\Providers\\PyramidServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Pyramid": "Vqpoint\\Pyramid\\Facade\\PyramidFacade"
+            }
         }
     },
     "require": {
